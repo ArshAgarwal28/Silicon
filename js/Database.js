@@ -43,7 +43,7 @@ function signUpPressed() {
   loginBut.hide();
   signUpBut.hide();
   playerName = input.value();
-  playerName.replace("Username: ", "");
+  playerName.replace("Username:", "");
 
   addUser();
   updateCount();
