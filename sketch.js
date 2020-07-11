@@ -74,7 +74,7 @@ function preload() {
   "sprites/powerUpBlue/speedUp3.png","sprites/powerUpBlue/speedUp4.png",
   "sprites/powerUpBlue/speedUp5.png","sprites/powerUpBlue/speedUp6.png")
 
-  trackAnim = loadImage("sprites/Level2Spr/track.png");
+  trackAnim = loadImage("track.png");
   vaccineAnim = loadImage("sprites/Level2Spr/VaccineIMG.png");
   virusAnim = loadImage("sprites/Level2Spr/virusAI.png");
   demoAnim = loadImage("sprites/Level2Spr/miniButton.png");
