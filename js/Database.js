@@ -50,7 +50,7 @@ function signUpPressed() {
 }
 
 function addUser() {
-  if (playerName !== "") {
+  if (playerName !== "" || playerName !== " ") {
     var temp = countPlayer;
     if (temp > 0) {
       for (var user in allUsers) {
